@@ -1,5 +1,8 @@
 package com.lti.code;
 
 public class DemoTest {
-  Sytem.out.println("DemoTest");
+	public static void main(String[] args) {
+		System.out.println("DemoTest");
+	}
+  
 }
