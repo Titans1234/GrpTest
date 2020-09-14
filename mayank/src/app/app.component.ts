@@ -11,4 +11,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'mayank';
   //This line has been added by anant
+  Hello;
 }
