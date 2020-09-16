@@ -1,1 +1,40 @@
-<p>registration works!</p>
+<form>
+    <h1>Registration Page</h1>
+    <table>
+        <div>
+            <label for="title">TITLE</label>
+            <input type="text" [(ngModel)]=user.title id="title">
+        </div>
+        <div>
+            <label for=" firstName ">FIRST NAME</label>
+            <input type=" text" [(ngModel)]=user.firstname id="firstName" >
+        </div>
+        <div>
+            <label for="lastName">LAST NAME</label>
+            <input type="text" [(ngModel)]=user.lastName id="lastName" >
+        </div>
+        <div>
+            <label for=" email ">EMAIL ID</label>
+            <input type="email " [(ngModel)]=user.email id="email" >
+        </div>
+        <div>
+            <label for=" pass ">PASSWORD</label>
+            <input type="password " [(ngModel)]=user.password  id="pass">
+        </div>
+        <div>
+            <label for=" pass2 ">CONFIRM PASSWORD</label>
+            <input type="password " [(ngModel)]=user.confirmpassword id="pass2" >
+        </div>
+        <div>
+            <label for=" date">DATE OF BIRTH</label>
+            <input type="date " [(ngModel)]=user.date id="date" >
+        </div>
+        <div>
+            <label for=" phone ">PHONE NUMBER</label>
+            <input type="number " [(ngModel)]=user.phoneNumber id="phone"  >
+        </div>
+        <div><button type="submit">SIGN UP</button>
+          <button type="reset">CANCEL</button>
+        </div>
+    </table>
+</form>
