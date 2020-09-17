@@ -11,6 +11,7 @@ import { LoginComponent } from './login/login.component';
 import { PaymentComponent } from './payment/payment.component';
 import { CancellationComponent } from './cancellation/cancellation.component';
 import { SeatSelectComponent } from './seat-select/seat-select.component';
+import { NO_ERRORS_SCHEMA,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SeatSelectComponent } from './seat-select/seat-select.component';
     LoginComponent,
     PaymentComponent,
     CancellationComponent,
-    SeatSelectComponent
+    SeatSelectComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -29,6 +31,7 @@ import { SeatSelectComponent } from './seat-select/seat-select.component';
     FormsModule,
   ],
   providers: [],
+  schemas: [NO_ERRORS_SCHEMA],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

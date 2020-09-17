@@ -1,4 +1,3 @@
-import { listLazyRoutes } from '@angular/compiler/src/aot/lazy_routes';
 import { Component, OnInit } from '@angular/core';
 import { User} from '../user.module';
 
