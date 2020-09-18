@@ -1,4 +1,4 @@
- CREATE USER mayank IDENTIFIED BY Mayank12;
+ CREATE USER ****** IDENTIFIED BY *****;
 
     grant dba to mayank;
     connect mayank;
